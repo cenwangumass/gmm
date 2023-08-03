@@ -7,6 +7,16 @@ Install dependencies:
 
 Run the example:
 
-1. Set `PYTHONPATH` and make `gmm` importable: `export PYTHONPATH=.`.
-2. Run the training script: `python train.py`.
-3. Test: `python test.py`.
+```bash
+# Make gmm importable
+export PYTHONPATH=$PWD
+
+# Enter the `examples` directory
+cd examples
+
+# Run the training script
+python train.py
+
+# Test model performance
+python test.py
+```
